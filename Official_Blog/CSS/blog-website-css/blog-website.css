@@ -1,0 +1,69 @@
+@import "/CSS/blog-website-css/blog-website-cards.css";
+@import "/CSS/blog-website-css/blog-website-media.css";
+@import "/CSS/blog-website-css/blog-website-author.css";
+img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+header {
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    font-size: 3.5em;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    text-align: left;
+    padding-left: 15px;
+}
+#crop {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-image: url("/IMAGES/contact-photo.JPG");
+    background-size: cover;
+}
+
+.stars {
+    color: gray;
+}
+footer {
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    padding: 40px;
+    text-align: center;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+body, html {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+}
+a {
+    display: block;
+    padding: 8px;
+}
+li {
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    float: center;
+    padding-left: 10px;
+  }
+  /*
+add author info to blog post */
+/* fix header footer article and section tag */

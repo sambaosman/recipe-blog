@@ -1,0 +1,110 @@
+@import "/CSS/blog-post-css/blog-post-mediaque;ry.css";   
+@import "/CSS/blog-post-css/blog-post-con.css";
+@import "/CSS/blog-post-css/blog-post-headers.css";
+
+.text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: gray;
+}
+#blog-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: gray;
+}
+#author-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: gray;
+}
+#author-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: gray;
+}
+a {
+    font-family: 'Montserrat', sans-serif;
+}
+#intro {
+    display:flex;
+    flex-direction: row;
+    text-align: left;
+}
+#author {
+    padding-left: 15px;
+    padding-top:18px;
+}
+a {
+    color: blueviolet;
+}
+strong {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    color: blueviolet;
+}
+i {
+    font-family: 'Montserrat', sans-serif;
+}
+#quote {
+    display: block;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: auto;
+    font-size: 30px;
+    color: blueviolet;
+}
+ol {
+    line-height: 40px;
+}
+ul {
+    line-height: 40px;
+}
+#crop {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-image: url("/IMAGES/contact-photo.JPG");
+    background-size: cover;
+}
+.features {
+    display: flex;
+    flex-direction: row;
+}
+.features figure {
+    width: 100px;
+    margin: auto;
+}
+.features figure img {
+    width: 30px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: gray 0 0 5px;
+}
+.features figure figcaption {
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+    font-size: 10px;
+}
+button {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 35px;
+    background-color: white;
+    color: blueviolet;
+    border-color: blueviolet;
+    border-radius: 5px;
+}
+.button {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    padding-bottom: 0px;
+    padding-top: 30px;  
+    }
+ #centered-button {
+     
+ }
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}

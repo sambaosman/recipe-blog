@@ -1,0 +1,51 @@
+.cards {
+    margin: 0 auto;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.card {
+    box-shadow: 0 0 3px gray;
+    border-radius: 15px;
+}
+.card-image {
+    width: 100%;
+    display: block;
+}
+.card-content {
+    line-height: 1.5;
+    font-size: 0.9em;
+    padding: 15px;
+    background: #fafafa;
+}
+.card-content > p:first-of-type {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: gray;
+}
+.card-content > p:last-of-type {
+    margin-bottom: 0;
+    color: gray;
+}
+.card-info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #cccccc;
+    align-items: center;
+    border-radius: 15px;
+}
+.card-info i {
+    font-size: 0.9em;
+    margin-right: 8px;
+}
+.card-link {
+    color: blueviolet;
+    text-decoration: none;
+}
+.card-link:hover {
+    text-decoration: underline;
+    color: blue;
+}

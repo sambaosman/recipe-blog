@@ -1,0 +1,20 @@
+#author-name {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: gray;
+}
+#author-description {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    color: gray;
+}
+#author {
+    padding-left: 15px;
+    padding-top:18px;
+}
+#intro {
+    display:flex;
+    flex-direction: row;
+    text-align: left;
+    padding-left: 15px;
+}

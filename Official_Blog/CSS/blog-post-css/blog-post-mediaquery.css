@@ -1,0 +1,48 @@
+@media screen and (min-width: 0px) and (max-width: 999px){ 
+    #main-container {
+        display: grid;
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: minmax(100px,auto);
+        grid-template-areas: 
+            "con1 con1"
+            "con2 con2"
+            "con3 con3"
+            "con4 con4"
+            "con5 con5"
+            "con7 con7"
+            "con7 con7" 
+            "con9 con9"
+            "con10 con10"
+            "con11 con11"
+            "con12 con12"
+            "con13 con13"
+            "con14 con14"
+            "con8 con8";
+        }
+    }
+    @media screen and (min-width: 1000px) { /* sizing of webpage in mobile and computer format*/
+         #main-container {
+            grid-template-areas: 
+            "con1 con1"
+            "con2 con2"
+            "con3 con3"
+            "con4 con4"
+            "con5 con5"
+            "con7 con7"
+            "con7 con7"
+            "con9 con9"
+            "con10 con10"
+            "con11 con11"
+            "con12 con12"
+            "con13 con13"
+            "con14 con14"
+            "con8 con8";
+        }
+        .text {
+            font-size: 18px;
+        }
+        #blog-title {
+            font-size: 55px;
+        }
+    }
