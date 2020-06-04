@@ -1,6 +1,6 @@
-@import "/CSS/blog-post-css/blog-post-mediaque;ry.css";   
-@import "/CSS/blog-post-css/blog-post-con.css";
-@import "/CSS/blog-post-css/blog-post-headers.css";
+@import "blog-post-mediaquery.css";   
+@import "blog-post-con.css";
+@import "blog-post-headers.css";
 
 .text {
     font-family: 'Montserrat', sans-serif;
@@ -64,7 +64,7 @@ ul {
     border-radius: 50%;
     width: 60px;
     height: 60px;
-    background-image: url("/IMAGES/contact-photo.JPG");
+    background-image: url("../../IMAGES/contact-photo.JPG");
     background-size: cover;
 }
 .features {
@@ -101,9 +101,6 @@ button {
     padding-bottom: 0px;
     padding-top: 30px;  
     }
- #centered-button {
-     
- }
 a:hover {
     text-decoration: underline;
     color: blue;
