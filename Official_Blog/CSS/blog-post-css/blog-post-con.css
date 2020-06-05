@@ -1,27 +1,27 @@
-#container-1 {
+.container-1 {
     grid-area: con1; /*blog title and author info */
 }
-#container-2 {
+.container-2 {
     grid-area: con2; /* first paragraph*/
 }
-#container-3 {
+.container-3 {
     grid-area: con3; /*picture 1*/
     background-image: url("../../IMAGES/pao.jpeg");
     height: 250px;
     background-size: cover;
     background-position: 65% 75%;
 }
-#container-4 {
+.container-4 {
     grid-area: con4; /* include h2 underpic para*/
     padding-top: 20px;
 }
-#container-5 {
+.container-5 {
     grid-area: con5; /* paragraph*/
 }
-#container-7 {
+.container-7 {
     grid-area: con7; /* ingredients*/
 }
-#container-8 {
+.container-8 {
     grid-area: con8; /* cheese pic*/
     max-width:100%;
     max-height: 100%;
@@ -30,22 +30,22 @@
     background-image: url("../../IMAGES/pic3.jpg");
     background-position: center;
 }
-#container-9 {
+.container-9 {
     grid-area: con9; /* paragraph in between lists*/
 }
-#container-10 {
+.container-10 {
     grid-area: con10; /* recipe*/
 }
-#container-11 {
+.container-11 {
     grid-area: con11;  /* 1 paragraphs*/ 
     align-items: center;
 }
-#container-12 {
+.container-12 {
     grid-area: con12; /*1 paragraph*/
 }
-#container-13 {
+.container-13 {
     grid-area:con13; /* quote*/
 }
-#container-14 {
+.container-14 {
     grid-area:con14; /*ending paragraph*/
 }

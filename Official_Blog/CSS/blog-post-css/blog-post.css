@@ -13,12 +13,12 @@
     font-weight: 400;
     color: gray;
 }
-#author-name {
+.author-name {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: gray;
 }
-#author-description {
+.author-description {
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     color: gray;
@@ -26,12 +26,12 @@
 a {
     font-family: 'Montserrat', sans-serif;
 }
-#intro {
+.intro {
     display:flex;
     flex-direction: row;
     text-align: left;
 }
-#author {
+.author {
     padding-left: 15px;
     padding-top:18px;
 }
@@ -60,7 +60,7 @@ ol {
 ul {
     line-height: 40px;
 }
-#crop {
+.crop {
     border-radius: 50%;
     width: 60px;
     height: 60px;

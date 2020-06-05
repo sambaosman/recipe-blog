@@ -12,7 +12,7 @@ button {
     border-color: blueviolet;
     border-radius: 5px;
 }
-#button {
+.button {
     display: flex;
     align-items: flex-start;
     justify-content: left;
@@ -26,6 +26,6 @@ button {
     color: blueviolet;
     text-align: center;
  }
- #centered-button {
+ .centered-button {
      text-align: center;
  }
